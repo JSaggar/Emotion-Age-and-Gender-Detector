@@ -11,7 +11,7 @@ import csv
 
 # Load pre-trained models
 # **UPDATE FILE LOCATION** 
-face_exp_model = load_model("FILE LOACTION")
+face_exp_model = load_model(r"dataset/facial_expression_model_combined.h5")
 
 emotions_label = ('angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral')
 
