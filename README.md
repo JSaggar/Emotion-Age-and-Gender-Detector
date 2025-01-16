@@ -8,14 +8,22 @@ Accurate Classification: High precision due to advanced CNN architecture.
 Non-Intrusive Methodology: Facial recognition as the sole input format.
 Applications: Mental health monitoring, customer service enhancement, and human-computer interaction.
 
-**Technologies Used**
-  Programming Language: Python
-  Libraries and Frameworks:
-  TensorFlow
-  Keras
-  OpenCV
-  NumPy
-  Dataset: FER-2013 (Facial Expression Recognition dataset)
+
+**Programming Language:** Python
+
+**Libraries and Frameworks:**
+
+Tkinter
+
+TensorFlow
+
+Keras
+
+OpenCV
+
+NumPy
+
+**Dataset:** FER-2013 (Facial Expression Recognition dataset)
 
 **Methodology**
 
