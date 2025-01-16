@@ -10,10 +10,13 @@ from PIL import Image, ImageTk
 import csv
 
 # Load pre-trained models
-face_exp_model = load_model(r"C:\Users\Asus\source\repos\Face Rcognition\code\dataset\facial_expression_model_combined.h5")
+# **UPDATE FILE LOCATION** 
+face_exp_model = load_model("FILE LOACTION")
+
 emotions_label = ('angry', 'disgust', 'fear', 'happy', 'sad', 'surprise', 'neutral')
 
-# Gender and Age models
+# Gender and Age models 
+# Verify Model Locations
 gender_label_list = ['Male', 'Female']
 age_label_list = ['(0-2)', '(4-6)', '(8-12)', '(15-20)', '(25-32)', '(38-43)', '(48-53)', '(60-100)']
 gender_protext = r"dataset/gender_deploy.prototxt"
